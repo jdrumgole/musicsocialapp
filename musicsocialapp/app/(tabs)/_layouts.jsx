@@ -13,7 +13,7 @@ export default function TabLayouts() {
         }}>
             <Tabs.Screen name='home'
                 options={{
-                    tabBarLabel: 'Hoe',
+                    tabBarLabel: 'Home',
                     tabBarIcon:({color})=><Ionicons name="home" size={24} color={color} />
             }}/>
             <Tabs.Screen name='explore' />
